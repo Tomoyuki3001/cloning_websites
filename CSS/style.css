@@ -22,7 +22,7 @@ body {
 }
 
 .h_nav {
-    position: absolute;
+    position: fixed;
     top: 35px;
     background-color: #4e092b;
     color: #ffffff;
@@ -55,10 +55,10 @@ li {
 
 .footer_up {
     /* background-color: #4e092b; */
-    background-color: aqua;
+    background-color: #4e092b;
     color: #ffffff;
-    height: 528.5px;
-    padding: 42.837px 0px;
+    height: 535.5px;
+    padding: 53.2px 0px;
 }
 
 .footer_btm {
@@ -66,4 +66,12 @@ li {
     color: #ffdd92;
     height: 57px;
     padding: 15px 0px 5px 0px;
+}
+
+.test {
+    padding-top: 167px; 
+    width: 100%;
+    height: 500px;
+    color: #000000;
+    background-color: #ffffff;
 }
