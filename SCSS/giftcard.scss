@@ -7,8 +7,7 @@ $red_color: rgb(78, 10, 43);
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(4, 1fr);
     width: 100vw;
-    height: 200vh;
-    margin: 0;
+    height: 190vh;
     @media screen and (max-width: 60em) {
       grid-template-rows: repeat(4, 1fr);
     }
@@ -19,6 +18,8 @@ $red_color: rgb(78, 10, 43);
     grid-column-end: 3;
     grid-row: 1;
     background-color: $yellow_color;
+    align-items: center;
+    text-align: left;
     @media screen and (max-width: 60em) {
       grid-column-start: 1;
       grid-column-end: 5;
@@ -30,11 +31,10 @@ $red_color: rgb(78, 10, 43);
     grid-column-start: 3;
     grid-column-end: 5;
     grid-row: 1;
-    background-image: url(https://oldspaghettifactory.ca/wp-content/uploads/2021/01/OSF-071020-image-883-cropped.jpg);
+    background-image: url("https://oldspaghettifactory.ca/wp-content/uploads/2021/01/OSF-071020-image-883-cropped.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
     @media screen and (max-width: 60em) {
       grid-column-start: 1;
       grid-column-end: 5;
@@ -62,15 +62,16 @@ $red_color: rgb(78, 10, 43);
     grid-column-end: 5;
     grid-row: 2;
     background-color: $yellow_color;
+    text-align: center;
     @media screen and (max-width: 60em) {
       grid-column-start: 1;
       grid-column-end: 5;
       grid-row: 4;
     }
   }
-
-.text1 {
-    text-align: center;
-}
+  
+  .callout {
+    margin: 0;
+  }
   
   

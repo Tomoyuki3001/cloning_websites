@@ -53,6 +53,12 @@ li {
     padding: 10px 19px;
 }
 
+.footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
 .footer_up {
     /* background-color: #4e092b; */
     background-color: #4e092b;
