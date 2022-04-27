@@ -1,0 +1,142 @@
+$yellow_color: rgb(254, 221, 146);
+$red_color: rgb(78, 10, 43);
+
+.grid {
+    padding-top: 167px; 
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    width: 100vw;
+    height: 190vh;
+    @media screen and (max-width: 60em) {
+      grid-template-rows: repeat(4, 1fr);
+    }
+  }
+
+  .grid_1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 1;
+    padding-top: 10vh;
+    padding-right: 10vw;
+    padding-bottom: 10vh;
+    padding-left: 10vw;
+    background-color: $yellow_color;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media screen and (max-width: 60em) {
+      grid-column-start: 1;
+      grid-column-end: 5;
+      grid-row: 1;
+    }
+  }
+  
+  .grid_2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row: 1;
+    background-image: url("https://oldspaghettifactory.ca/wp-content/uploads/2021/01/OSF-071020-image-883-cropped.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    @media screen and (max-width: 60em) {
+      grid-column-start: 1;
+      grid-column-end: 5;
+      grid-row: 2;
+    }
+  }
+  
+  .grid_3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 2;
+    background-image: url("https://oldspaghettifactory.ca/wp-content/uploads/2020/11/OSF-061020-image-192.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    @media screen and (max-width: 60em) {
+      grid-column-start: 1;
+      grid-column-end: 5;
+      grid-row: 3;
+    }
+  }
+  
+  .grid_4 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row: 2;
+    padding-top: 10vh;
+    padding-right: 10vw;
+    padding-bottom: 10vh;
+    padding-left: 10vw;
+    background-color: $yellow_color;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media screen and (max-width: 60em) {
+      grid-column-start: 1;
+      grid-column-end: 5;
+      grid-row: 4;
+    }
+  }
+
+h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-family: "Asap", sans-serif;
+    color: $red_color;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-family: "Asap", sans-serif;
+    font-weight: bold;
+    color: $red_color;
+    padding-bottom: 10px;
+    line-height: 1em;
+}
+
+p {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 300;
+    padding-bottom: 1em;
+    line-height: 1.7em;
+}
+
+.order {
+    font-size: 22px;
+    color: white;
+    background-color: $red_color;
+    border-radius: 5px;
+    line-height: 1.7em;
+    padding: 0.3em 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    font-family: "Asap", sans-serif;
+    transition: 300ms ease 0ms;
+    margin-bottom: 1em;
+}
+
+.balance {
+    font-size: 17.5px;
+    color: $red_color;
+    background-color: $yellow_color;
+    border: 2px solid;
+    border-radius: 5px;
+    line-height: 1.7em;
+    padding: 0.3em 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    font-family: "Asap", sans-serif;
+    transition: 300ms ease 0ms;
+}
+
+  
