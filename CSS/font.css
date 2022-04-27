@@ -9,3 +9,11 @@ li {
   font-weight: bold;
   font-size: 16px;
 }
+
+.footer_up_box {
+  font-family: "Asap", sans-serif;
+}
+
+.footer_btm {
+  font-family: "Roboto Condensed", sans-serif;
+}
