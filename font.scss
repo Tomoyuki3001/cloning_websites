@@ -1,0 +1,13 @@
+@use 'base_font';
+
+.h_firstSentence {
+    font-family: base_font.$small;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+li {
+    font-family: base_font.$big;
+    font-weight: bold;
+    font-size: 16px;
+}
