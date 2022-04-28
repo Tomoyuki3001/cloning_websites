@@ -1,3 +1,5 @@
+@use "font";
+
 * {
     box-sizing: border-box;
 }
@@ -68,16 +70,32 @@ li {
 
 .footer_up_box {
     display: flex;
-    padding: 5% 10%;
+    padding: 6% 10%;
+    justify-content: space-between;
 }
 
 .info {
     display: flex;
+    justify-content: space-around;
+}
+
+.info img {
+    width: 115px;
+    height: 83px;
+}
+
+.info p {
+    margin-bottom: 20%;
+}
+
+.info_3 p {
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .ctform {
     width: 38%;
-    padding: 2% 1.5% 0% 2%;
+    padding: 0% 1.5% 0% 2%;
 }
 
 .ctform h2 {
@@ -121,7 +139,7 @@ li {
 }
 
 .info {
-    width: 62%;
+    width: 60%;
     color: #ffdd92;
     font-size: 16px;
 }
