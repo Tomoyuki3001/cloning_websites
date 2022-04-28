@@ -1,4 +1,5 @@
-@use 'base_font';
+$small: 'Roboto Condensed', sans-serif;
+$big: 'Asap', sans-serif;
 
 .h_firstSentence {
     font-family: base_font.$small;
