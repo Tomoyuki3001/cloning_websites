@@ -23,7 +23,7 @@
   background-color: rgb(254, 221, 146);
   text-align: left;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
 }
 @media screen and (max-width: 60em) {
@@ -170,4 +170,24 @@ p {
 .balance:hover {
   border: 2px solid rgb(254, 221, 146);
   transition: 300ms ease 0ms;
+}
+
+.container_promo {
+  background-color: rgb(222, 159, 1);
+  width: 100vw;
+  height: 50vh;
+  position: relative;
+  box-sizing: border-box;
+  display: block;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+@media screen and (max-width: 60em) {
+  .container_promo {
+    height: 30em;
+  }
+}
+.container_promo .promotional {
+  text-align: center;
+  margin: auto;
 }/*# sourceMappingURL=giftcard.css.map */
