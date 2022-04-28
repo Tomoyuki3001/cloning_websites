@@ -27,9 +27,9 @@ $red_color: rgb(78, 10, 43);
     align-items: center;
     justify-content: center;
     @media screen and (max-width: 60em) {
-      grid-column-start: 1;
-      grid-column-end: 5;
-      grid-row: 1;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row: 1;
     }
   }
   
@@ -42,9 +42,10 @@ $red_color: rgb(78, 10, 43);
     background-position: center;
     background-size: cover;
     @media screen and (max-width: 60em) {
-      grid-column-start: 1;
-      grid-column-end: 5;
-      grid-row: 2;
+        height: 30em;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row: 2;
     }
   }
   
@@ -57,9 +58,10 @@ $red_color: rgb(78, 10, 43);
     background-position: center;
     background-size: cover;
     @media screen and (max-width: 60em) {
-      grid-column-start: 1;
-      grid-column-end: 5;
-      grid-row: 3;
+        height: 30em;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row: 4;
     }
   }
   
@@ -77,9 +79,9 @@ $red_color: rgb(78, 10, 43);
     align-items: center;
     justify-content: center;
     @media screen and (max-width: 60em) {
-      grid-column-start: 1;
-      grid-column-end: 5;
-      grid-row: 4;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row: 3;
     }
   }
 
@@ -96,15 +98,32 @@ h1 {
     font-size: 4rem;
     text-transform: uppercase;
     font-family: "Asap", sans-serif;
+    font-style: normal;
     font-weight: bold;
     color: $red_color;
     padding-bottom: 10px;
     line-height: 1em;
 }
 
+h2 {
+    font-size: 3rem;
+    font-family: "Asap", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: $red_color;
+    line-height: 1em;
+    padding-bottom: 10px;
+    margin-bottom: 0.83em;
+
+}
+
+a {
+    font-weight:bold;
+}
+
 p {
     font-family: "Roboto Condensed", sans-serif;
-    font-weight: 300;
+    font-weight: lighter;
     padding-bottom: 1em;
     line-height: 1.7em;
 }
@@ -130,7 +149,7 @@ p {
     background-color: $yellow_color;
     border: 2px solid;
     border-radius: 5px;
-    line-height: 1.7em;
+    line-height: 2em;
     padding: 0.3em 1em;
     font-weight: bold;
     text-transform: uppercase;
