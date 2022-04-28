@@ -145,8 +145,13 @@ p {
   text-transform: uppercase;
   display: inline-block;
   font-family: "Asap", sans-serif;
-  transition: 300ms ease 0ms;
   margin-bottom: 1em;
+}
+.order:hover {
+  cursor: pointer;
+  background-color: rgb(222, 159, 1);
+  color: rgb(78, 10, 43);
+  transition: 300ms ease 0ms;
 }
 
 .balance {
@@ -161,5 +166,8 @@ p {
   text-transform: uppercase;
   display: inline-block;
   font-family: "Asap", sans-serif;
+}
+.balance:hover {
+  border: 2px solid rgb(254, 221, 146);
   transition: 300ms ease 0ms;
 }/*# sourceMappingURL=giftcard.css.map */

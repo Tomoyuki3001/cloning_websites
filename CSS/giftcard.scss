@@ -139,9 +139,14 @@ p {
     text-transform: uppercase;
     display: inline-block;
     font-family: "Asap", sans-serif;
-    transition: 300ms ease 0ms;
     margin-bottom: 1em;
-}
+    &:hover {
+      cursor: pointer;
+      background-color: rgb(222, 159, 1);
+      color: $red_color;
+      transition: 300ms ease 0ms;
+    }
+    }
 
 .balance {
     font-size: 17.5px;
@@ -155,7 +160,12 @@ p {
     text-transform: uppercase;
     display: inline-block;
     font-family: "Asap", sans-serif;
-    transition: 300ms ease 0ms;
+    &:hover {
+      border: 2px solid $yellow_color;
+      transition: 300ms ease 0ms;
+
+    }
+
 }
 
   
