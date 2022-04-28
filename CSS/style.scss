@@ -35,6 +35,11 @@ body {
     justify-content: space-between;
 }
 
+.nav-btn.active{
+    color: #DF9F00;
+    padding: 1px;
+}
+
 .h_nav img {
     height: 100%;
 }
