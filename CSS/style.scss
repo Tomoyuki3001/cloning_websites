@@ -1,4 +1,5 @@
 @use "fonts";
+@use "variables";
 
 * {
     box-sizing: border-box;
@@ -12,10 +13,11 @@ body {
     background-color: #ffdd92;
     color: #4e092b;
     position: fixed;
-    height: 35px;
+    height: variables.$topHeader-height;
     width: 100%;
     display: flex;
     align-items: center;
+    top: 0px;
 }
 
 .h_firstSentence a {
@@ -28,7 +30,7 @@ body {
     top: 35px;
     background-color: #4e092b;
     color: #ffffff;
-    height: 132px;
+    height: variables.$header-height;
     width: 100%;
     padding: 0px 144px;
     display: flex;
@@ -37,7 +39,6 @@ body {
 
 .nav-btn.active{
     color: #DF9F00;
-    padding: 1px;
 }
 
 .h_nav img {

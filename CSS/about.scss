@@ -1,0 +1,10 @@
+@use "variables";
+
+.about-content{
+  // display: grid;
+  // grid-template-columns: 1fr 1fr;
+  // grid-template-rows: 100vh-;
+  height: 35rem;
+  background-color: lightcoral;
+  margin-top: variables.$topHeader-height + variables.$header-height;
+}

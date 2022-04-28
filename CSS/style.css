@@ -34,6 +34,7 @@ body {
   width: 100%;
   display: flex;
   align-items: center;
+  top: 0px;
 }
 
 .h_firstSentence a {
@@ -55,7 +56,6 @@ body {
 
 .nav-btn.active {
   color: #DF9F00;
-  padding: 1px;
 }
 
 .h_nav img {
