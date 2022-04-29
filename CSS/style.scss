@@ -24,6 +24,7 @@ body {
     height: variables.$topHeader-height;
     width: 100%;
     top: 0px;
+    z-index: 2;
     .top-header-box {
         width: 1152px;
         display: flex;
@@ -49,6 +50,7 @@ body {
     padding: 0px 144px;
     display: flex;
     justify-content: space-between;
+    z-index: 2;
     img {
         height: 100%;
     }
@@ -59,11 +61,12 @@ body {
 .nav-list {
     display: flex;
     align-items: center;
+    z-index: 2;
     .nav-btn {
         margin: 0px 21px 0px 0px;
     }
 
-    .nav-btn.active{
+    .nav-btn:active{
         color: #DF9F00;
     }
 
@@ -80,13 +83,246 @@ body {
 
 //Contents part
 
-.test {
-    padding-top: 167px; 
+.contents-pasta {
+    margin-top: 167px; 
     width: 100%;
-    height: 500px;
-    color: #000000;
-    background-color: #ffffff;
+    height: 342px;
+    position: relative;
+    img {
+        position: absolute;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
 }
+
+.contents-welcome {
+    height: 260px;
+    width: 100%;
+    padding: 37.3px 0px;
+    text-align: center;
+    background-color: #4e092b;
+    color: #ffdd92;
+    font-family: variables.$font-asap;
+    .contents-welcome-sentence {
+        margin-top: 25px;
+        font-size: 48px;
+        font-weight: bold;
+        
+    }
+    .contents-welcome-btn {
+        margin-top: 25px;
+        border: solid 2px #ffffff;
+        background-color: #4e092b;
+        color: #ffffff;
+        font-size: 22px;
+        font-weight: bold;
+        border-radius: 5px;
+        padding: 12px 22px;
+    }
+}
+
+.contents-hiring {
+    width: 100%;
+    height: 409px;
+    display: flex;
+    .contents-hiring-information {
+        width: 50%;
+        padding: 105px 144px;
+        background-color: #ffdd92;
+        color: #4e092b;
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column;
+        justify-content: space-around;
+        .contents-hiring-national {
+            font-size: 3rem;
+            font-weight: bold;
+            font-family: variables.$font-asap;
+        }
+        .contents-hiring-sentence {
+            color: #000000;
+            font-size: 16px;
+            font-family: variables.$font-robot;
+        }
+        .contents-hiring-btn {
+            display: inline-block;
+            color: #ffffff;
+            font-size: 22px;
+            font-weight: bold;
+            font-family: variables.$font-robot;
+            background-color: #4e092b;
+            border-radius: 5px;
+            padding: 12px 22px;
+        }
+    }
+    .contents-hiring-image {
+        width: 50%;
+        position: relative;
+        img {
+            position: absolute;
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+.contents-giftcard {
+    width: 100%;
+    height: 520px;
+    padding: 63.5px 0px;
+    background-color: #4e092b;
+    .contents-giftcard-box {
+        padding: 2% 0%;
+        margin: 0% 10%;
+        display: flex;
+        .contents-giftcard-image {
+            width: 50%;
+            padding-right: 4%;
+            .contents-giftcard-image-deg {
+                width: 90%;
+                height: auto;
+                transform: rotate(-15deg);
+            }
+        }
+        .contents-giftcard-information {
+            width: 50%;
+            padding: 6% 0% 6% 2%; 
+            display: flex;
+            flex-wrap: wrap;
+            flex-flow: column;
+            .contents-giftcard-gift {
+            color: #ffdd92;
+            font-size: 3rem;
+            font-weight: bold;
+            font-family: variables.$font-asap;
+            margin-bottom: 6%;
+            }
+            .contents-giftcard-sentence {
+                color: #ffffff;
+            font-size: 16px;
+            font-family: variables.$font-robot;
+            margin-bottom: 6%;
+            }
+            .contents-giftcard-btn {
+                display: inline-block;
+            color: #ffffff;
+            font-size: 22px;
+            font-weight: bold;
+            font-family: variables.$font-robot;
+            background-color: #4e092b;
+            border: 2px solid #ffffff;
+            border-radius: 5px;
+            padding: 12px 22px;
+            }
+        }
+    }   
+}
+
+.contents-pickupdelivery {
+    width: 100%;
+    height: 639px;
+    background-color: #ffdd92;
+    display: flex;
+    .contents-pickupdelivery-information {
+        width: 50%;
+        color: #4e092b;
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column;
+        justify-content: space-around;
+        padding-top: 10vh;
+        padding-right: 10vw;
+        padding-bottom: 10vh;
+        padding-left: 10vw;
+        .contents-pickupdelivery-2024 {
+            font-size: 1.5rem;
+            font-family: variables.$font-asap;
+        }
+        .contents-pickupdelivery-help {
+            font-size: 3rem;
+            font-weight: bold;
+            font-family: variables.$font-asap;
+        }
+        .contents-pickupdelivery-sentence {
+            color: #000000;
+            font-size: 16px;
+            font-family: variables.$font-robot;
+        }
+        .contents-pickupdelivery-btn {
+            display: inline-block;
+            color: #ffffff;
+            font-size: 22px;
+            font-weight: bold;
+            font-family: variables.$font-robot;
+            background-color: #4e092b;
+            border-radius: 5px;
+            padding: 12px 22px;
+        }
+}
+        .contents-pickupdelivery-image {
+            width: 50%;
+            position: relative;
+            img {
+                position: absolute;
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+            }
+        }
+}
+
+.contents-family {
+    width: 100%;
+    height: 585px;
+    background-color: #ffdd92;
+    display: flex;
+    .contents-family-image {
+        width: 50%;
+        position: relative;
+        img {
+            position: absolute;
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .contents-family-information {
+        width: 50%;
+        color: #4e092b;
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column;
+        justify-content: space-around;
+        padding-top: 10vh;
+        padding-right: 10vw;
+        padding-bottom: 10vh;
+        padding-left: 10vw;
+        .contents-family-style {
+            font-size: 3rem;
+            font-weight: bold;
+            font-family: variables.$font-asap;
+        }
+        .contents-family-sentence {
+            color: #000000;
+            font-size: 16px;
+            font-family: variables.$font-robot;
+        }
+        .contents-pickupdelivery-btn {
+            display: inline-block;
+            color: #ffffff;
+            font-size: 22px;
+            font-weight: bold;
+            font-family: variables.$font-robot;
+            background-color: #4e092b;
+            border-radius: 5px;
+            padding: 12px 22px;
+        }
+}
+}
+
+
 
 //Footer part
 
