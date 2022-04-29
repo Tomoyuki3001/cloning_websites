@@ -4,8 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="./Images/cropped-OSF-favicon-32x32.jpg">
-
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./Images/cropped-OSF-favicon-32x32.jpg"
+    />
 
     <!-- Font family -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -14,7 +17,8 @@
     <!-- Font family Robot -->
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
-      rel="stylesheet"/>
+      rel="stylesheet"
+    />
 
     <!-- Font family Asap -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -33,20 +37,24 @@
   <body>
     <!--  Header part  -->
     <header>
-      <div class="h_firstSentence">
-        <a href="#">Our Health and Safety Measures</a>
+      <div class="top-header">
+        <div class="top-header-box">
+          <p><a href="#">Our Health and Safety Measures</a></p>
+        </div>
       </div>
-      <div class="h_nav">
-        <a href="./index.html"><img src="./Images/img_index_logo.png" alt="image_logo" /></a>
-        <ul>
+      <div class="header-nav">
+        <a href="./index.html"
+          ><img src="./Images/img_index_logo.png" alt="image_logo"
+        /></a>
+        <ul class="nav-list">
           <li><a class="nav-btn" href="#">LOCATIONS</a></li>
           <li><a class="nav-btn" href="#">MENUS</a></li>
-          <li><a class="nav-btn active" href="./giftcard.html">GIFT CARDS</a></li>
-          <li><a class="nav-btn " href="./about.html">ABOUT</a></li>
+          <li><a class="nav-btn" href="./giftcard.html">GIFT CARDS</a></li>
+          <li><a class="nav-btn" href="./about.html">ABOUT</a></li>
           <li><a class="nav-btn" href="#">RESERVATIONS</a></li>
           <li><a class="nav-btn" href="#">CAREERS</a></li>
-          <li><a class="border nav-btn" href="#">PICKUP</a></li>
-          <li><a class="border nav-btn" href="#">DELIVERY</a></li>
+          <li><a class="nav-btn-border nav-btn" href="#">PICKUP</a></li>
+          <li><a class="nav-btn-border nav-btn" href="#">DELIVERY</a></li>
         </ul>
       </div>
     </header>
@@ -54,24 +62,24 @@
     <section>
       <div class="grid">
         <div class="grid_1">
-            <h3>GIFT CARD</h3>
-            <h1>ALWAYS A GOOD CHOICE</h1>
-            <p>
-              Old Spaghetti Factory Gift Cards are available in a variety of
-              denominations and are sure to satisfy any appetite. Make life a
-              little easier by ordering an Old Spaghetti Factory online Instant
-              Gift Card. Just Purchase, Personalize, and Print your way to the
-              perfect gift!
-            </p>
-            <p class="upper">
-              PLEASE NOTE THESE ARE VALID FOR CANADIAN LOCATIONS ONLY
-            </p>
-            <div>
-              <button class="order">ORDER NOW</button>
-            </div>
-            <div>
-              <button class="balance">CHECK BALANCE</button>
-            </div>
+          <h3>GIFT CARD</h3>
+          <h1>ALWAYS A GOOD CHOICE</h1>
+          <p>
+            Old Spaghetti Factory Gift Cards are available in a variety of
+            denominations and are sure to satisfy any appetite. Make life a
+            little easier by ordering an Old Spaghetti Factory online Instant
+            Gift Card. Just Purchase, Personalize, and Print your way to the
+            perfect gift!
+          </p>
+          <p class="upper">
+            PLEASE NOTE THESE ARE VALID FOR CANADIAN LOCATIONS ONLY
+          </p>
+          <div>
+            <button class="order">ORDER NOW</button>
+          </div>
+          <div>
+            <button class="balance">CHECK BALANCE</button>
+          </div>
         </div>
         <div class="grid_2"></div>
         <div class="grid_3"></div>
@@ -92,41 +100,93 @@
               >
             </p>
             <p>
-              This includes vegetarian/vegan offerings and an entire separate menu
-              dedicated to those with gluten intolerances. The Old Spaghetti
-              Factory takes great pride in their menu offerings but continues to
-              adapt recipes and ingredients to ensure they are keeping pace in the
-              ever changing food service industry.
+              This includes vegetarian/vegan offerings and an entire separate
+              menu dedicated to those with gluten intolerances. The Old
+              Spaghetti Factory takes great pride in their menu offerings but
+              continues to adapt recipes and ingredients to ensure they are
+              keeping pace in the ever changing food service industry.
             </p>
           </div>
         </div>
       </div>
     </section>
-<!-- Bottom -->
+    <!-- Bottom -->
     <section>
       <div class="container_promo">
         <div class="promotional">
           <h3>PROMOTIONAL CONTACT</h3>
           <h2>Stay up-to-date with news and promos.</h2>
-          <input type="text" placeholder="email@address.ca">
+          <input type="text" placeholder="email@address.ca" />
           <button class="sign">SIGN UP</button>
         </div>
       </div>
     </section>
-    <!-- Foooter -->
-    <section>
-      <footer>
-        <div class="footer_up">
-          <div class="ctform"></div>
-          <div class="info"></div>
-        </div>
-        <div class="footer_btm">
-          <p>
-            ©2020 The Old Spaghetti Factory. All rights reserved. Designed By
-            Glacier Media Digital.
+    <!--  Footer part  -->
+    <footer>
+      <div class="footer">
+        <!--  Footer upper part -->
+        <div class="footer-contact">
+          <h2>Promotional Contact</h2>
+          <p>Sign up now to hear about promotions.</p>
+          <label for="mail">Email</label>
+          <input id="mail" type="text" />
+          <p class="footer-contact-explanation">
+            By submitting this form, you are consenting to receive marketing
+            emails from: The Old Spaghetti Factory, 210 - Water Street,
+            Vancouver, BC, British Columbia, V6B 1A1, CA. You can revoke your
+            consent to receive emails at any time by using the SafeUnsubscribe®
+            link, found at the bottom of every email. Emails are serviced by
+            Constant Contact.
           </p>
+          <button class="footer-contact-btn">Sign Up!</button>
         </div>
-      </footer>
-    </section>
+        <div class="footer-links">
+          <div class="footer-links-column">
+            <ul>
+              <li class="footer-link"><a href="#"></a>Careers</li>
+              <li class="footer-link"><a href="#"></a>Contact</li>
+              <li class="footer-link"><a href="#"></a>Feedback</li>
+            </ul>
+          </div>
+          <div class="footer-links-column">
+            <ul>
+              <li class="footer-link"><a href="#"></a>Reservations</li>
+              <li class="footer-link"><a href="#"></a>Privacy Policy</li>
+            </ul>
+          </div>
+          <div class="footer-links-column">
+            <p class="footer-follow">Follow</p>
+            <a href="https://www.instagram.com/osfcanada/" target="_blank"
+              ><img
+                class="footer-links-column-icons"
+                src="./Images/img_index_icon_instagram.png"
+                alt="icon_instagram"
+            /></a>
+            <a
+              href="https://www.facebook.com/theoldspaghettifactory"
+              target="_blank"
+              ><img
+                class="footer-links-column-icons"
+                src="./Images/img_index_icon_facebook.png"
+                alt="icon_facebook"
+            /></a>
+          </div>
+          <div class="footer-links-column">
+            <img
+              class="footer-links-columns-logo"
+              src="./Images/img_index_logo.png"
+              alt="iamge_logo"
+            />
+          </div>
+        </div>
+      </div>
+      <!--  Footer lower part -->
+      <div class="footer_btm">
+        <p>
+          ©2020 The Old Spaghetti Factory. All rights reserved. Cloned By CICCC
+          Students.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
