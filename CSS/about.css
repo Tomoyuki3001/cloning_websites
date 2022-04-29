@@ -1,5 +1,20 @@
-.about-content {
-  height: 35rem;
-  background-color: lightcoral;
+.about-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   margin-top: 167px;
+  background-color: #FFDD92;
 }
+.about-content-container .keeping-tradition, .about-content-container .outreach, .about-content-container .history, .about-content-container .dining-experience, .about-content-container .ingredients {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.about-content-container .article-image, .about-content-container .article-text {
+  width: 50%;
+}
+.about-content-container .article-text {
+  padding: 72px 154px;
+}/*# sourceMappingURL=about.css.map */
