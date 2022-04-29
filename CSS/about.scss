@@ -1,10 +1,29 @@
 @use "variables";
 
-.about-content{
-  // display: grid;
-  // grid-template-columns: 1fr 1fr;
-  // grid-template-rows: 100vh-;
-  height: 35rem;
-  background-color: lightcoral;
-  margin-top: variables.$topHeader-height + variables.$header-height;
+@mixin displayFlex ($direction, $align, $justify){
+  display: flex;
+  flex-direction: $direction;
+  align-items: $align;
+  justify-content: $justify;
 }
+
+.about-content-container{
+  @include displayFlex(column, center , center);
+  margin-top: variables.$topHeader-height + variables.$header-height;
+  background-color: #FFDD92;
+
+    .keeping-tradition, .outreach, .history, .dining-experience, .ingredients{
+      @include displayFlex(row, center , flex-start );
+    }
+
+
+    .article-image, .article-text{
+      width: 50%;
+    }
+
+    .article-text{
+      padding: 72px 154px;
+      
+    }
+}
+

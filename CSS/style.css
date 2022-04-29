@@ -20,8 +20,7 @@
 }
 
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -29,12 +28,8 @@ body {
 }
 
 .top-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   background-color: #ffdd92;
   color: #4e092b;
   position: fixed;
@@ -44,12 +39,8 @@ body {
 }
 .top-header .top-header-box {
   width: 1152px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
+  justify-content: right;
 }
 .top-header .top-header-box p {
   margin: 0;
@@ -65,29 +56,21 @@ body {
   height: 132px;
   width: 100%;
   padding: 0px 144px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 .header-nav img {
   height: 100%;
 }
 
 .nav-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 .nav-list .nav-btn {
   margin: 0px 21px 0px 0px;
 }
-.nav-list .nav-btn:active {
+.nav-list .nav-btn.active {
   color: #DF9F00;
 }
 .nav-list .nav-btn-border {
@@ -112,13 +95,10 @@ body {
   width: 100%;
   background-color: #4e092b;
   color: #ffffff;
+  margin-top: 167px;
   padding: 6% 10%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 .footer-contact {
@@ -165,11 +145,8 @@ body {
 }
 
 .footer-links {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   width: 58%;
   color: #ffdd92;
   font-size: 16px;
@@ -209,4 +186,4 @@ body {
   background-color: #420126;
   padding: 20px 0px 0px 0px;
   text-align: center;
-}
+}/*# sourceMappingURL=style.css.map */
