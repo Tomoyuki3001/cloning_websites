@@ -142,6 +142,7 @@ p {
     font-family: "Asap", sans-serif;
     margin-bottom: 1em;
     &:hover {
+      cursor: pointer;
       background-color: $dark_yellow_color;
       color: $red_color;
       transition: 300ms ease 0ms;
@@ -161,6 +162,7 @@ p {
     display: inline-block;
     font-family: "Asap", sans-serif;
     &:hover {
+      cursor: pointer;
       border: 2px solid $yellow_color;
       transition: 300ms ease 0ms;
     }
@@ -169,6 +171,9 @@ p {
 .bottom_gift {
   background-color: $dark_yellow_color;
   height: 50vh;
+  @media screen and (max-width: 60em) {
+    height: 30em;
+  }
 
   .container_promo {
     width: 40%;
@@ -216,6 +221,7 @@ p {
     align-items: center;
     justify-content:center;
     &:hover {
+      cursor: pointer;
       background-color: $dark_yellow_color;
       color: $red_color;
       transition: 300ms ease 0ms;
