@@ -148,6 +148,7 @@ p {
   margin-bottom: 1em;
 }
 .order:hover {
+  cursor: pointer;
   background-color: rgb(222, 159, 1);
   color: rgb(78, 10, 43);
   transition: 300ms ease 0ms;
@@ -167,6 +168,7 @@ p {
   font-family: "Asap", sans-serif;
 }
 .balance:hover {
+  cursor: pointer;
   border: 2px solid rgb(254, 221, 146);
   transition: 300ms ease 0ms;
 }
@@ -174,6 +176,11 @@ p {
 .bottom_gift {
   background-color: rgb(222, 159, 1);
   height: 50vh;
+}
+@media screen and (max-width: 60em) {
+  .bottom_gift {
+    height: 30em;
+  }
 }
 .bottom_gift .container_promo {
   width: 40%;
@@ -223,6 +230,7 @@ p {
   justify-content: center;
 }
 .bottom_gift .button_sign:hover {
+  cursor: pointer;
   background-color: rgb(222, 159, 1);
   color: rgb(78, 10, 43);
   transition: 300ms ease 0ms;
