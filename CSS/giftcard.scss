@@ -186,10 +186,12 @@ p {
       height: 30em;
     }
   }
+
   .promotional {
     text-align: center;
     margin: auto;
   }
+  
   .email_sign {
     background-color: white;
     width: 100%;
@@ -226,9 +228,6 @@ p {
       color: $red_color;
       transition: 300ms ease 0ms;
     }
-
-
-
   }
 }
 
