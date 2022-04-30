@@ -1,0 +1,42 @@
+//SCSS settings
+
+@use "fonts";
+@use "variables";
+
+.contents-health {
+    width: 100%;
+    height: 1000px;
+    margin-top: 167px;
+    padding: 105px 360px;
+    color: #000000;
+    font-family: variables.$font-robot;
+    .contents-health-box {
+        padding: 29px 0px;
+        line-height: 1.7em;
+        .contents-health-h2 {
+            font-family: variables.$font-asap;
+            color: #4e092b;
+            font-size: 48px;
+            font-weight: bold;
+            padding-bottom: 20px;
+        }
+        .contents-health-h3 {
+            font-family: variables.$font-asap;
+            color: #4e092b;
+            font-size: 24px;
+            padding-bottom: 20px;
+        }
+        .contents-health-title {
+            font-weight: bold;
+
+        }
+        .contents-health-lists {
+            list-style-type: disc;
+            padding: 0px 0px 16px 16px;
+        }
+        p {
+            padding-bottom: 20px;
+        }
+    }
+    
+}
