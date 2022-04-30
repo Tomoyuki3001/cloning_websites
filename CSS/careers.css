@@ -1,1 +1,12 @@
-/*# sourceMappingURL=careers.css.map */
+.current_position {
+  padding-top: 200px;
+}
+
+.position_grid {
+  padding-top: 50px;
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  align-items: center;
+}/*# sourceMappingURL=careers.css.map */
