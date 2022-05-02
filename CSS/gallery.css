@@ -1,0 +1,49 @@
+.gallery-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(13, 428px);
+  padding-top: 167px;
+  background-color: #FFDD92;
+}
+
+.pre-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #DF9F00;
+  height: 294px;
+  padding: 35px 0;
+}
+
+.pre-footer-button {
+  font-size: 22px;
+  color: white;
+  background-color: transparent;
+  color: #4E092B;
+  border: solid 1px #4E092B;
+  border-radius: 5px;
+  line-height: 1.7em;
+  padding: 0.3em 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+  font-family: "Asap", sans-serif;
+  margin-bottom: 1em;
+  cursor: pointer;
+  transition: 300ms ease;
+}
+
+.pre-footer-button:hover {
+  background-color: #ffdd92;
+  transition: 300ms ease;
+}
+
+.gallery-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 72px 154px;
+}/*# sourceMappingURL=gallery.css.map */
