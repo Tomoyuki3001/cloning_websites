@@ -172,18 +172,21 @@ p {
   background-color: $dark_yellow_color;
   height: 50vh;
   @media screen and (max-width: 60em) {
-    height: 30em;
+    height: 60em;
   }
 
   .container_promo {
     width: 40%;
     height: 35vh;
-    margin: auto;;
+    margin: auto;
     box-sizing: border-box;
     display: flex;
     padding: 5% 0;
     @media screen and (max-width: 60em) {
-      height: 30em;
+      height: 90em;
+      // padding-top: 32rem;
+
+
     }
   }
 
