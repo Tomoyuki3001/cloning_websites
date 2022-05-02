@@ -86,4 +86,15 @@
 .about-content-container .article-button:hover {
   background-color: rgb(222, 159, 1);
   transition: 300ms ease;
+}
+
+.pre-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #DF9F00;
+  height: 294px;
+  padding: 35px 0;
 }/*# sourceMappingURL=about.css.map */

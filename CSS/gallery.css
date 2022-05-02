@@ -17,10 +17,12 @@
   padding: 35px 0;
 }
 
-.article-button {
+.pre-footer-button {
   font-size: 22px;
   color: white;
-  background-color: rgb(78, 10, 43);
+  background-color: transparent;
+  color: #4E092B;
+  border: solid 1px #4E092B;
   border-radius: 5px;
   line-height: 1.7em;
   padding: 0.3em 1em;
@@ -33,8 +35,8 @@
   transition: 300ms ease;
 }
 
-.article-button:hover {
-  background-color: rgb(222, 159, 1);
+.pre-footer-button:hover {
+  background-color: #ffdd92;
   transition: 300ms ease;
 }
 
