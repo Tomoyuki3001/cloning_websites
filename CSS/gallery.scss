@@ -1,0 +1,51 @@
+@use 'variables';
+
+@mixin displayFlex ($direction, $align, $justify){
+  display: flex;
+  flex-direction: $direction;
+  align-items: $align;
+  justify-content: $justify;
+}
+
+.gallery-grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(13, 428px);
+  padding-top: variables.$header-height + variables.$topHeader-height;
+  background-color: #FFDD92;
+}
+
+.pre-footer{
+  @include displayFlex(column, center , center);
+  width: 100%;
+  background-color: #DF9F00;
+  height: 294px;
+  padding: 35px 0;
+}
+
+.article-button{
+  font-size: 22px;
+  color: white;
+  background-color: rgb(78, 10, 43);
+  border-radius: 5px;
+  line-height: 1.7em;
+  padding: 0.3em 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+  font-family: "Asap", sans-serif;
+  margin-bottom: 1em;
+  cursor: pointer;
+  transition: 300ms ease;
+}
+
+.article-button:hover{
+  background-color: rgb(222, 159, 1);
+  transition: 300ms ease;
+}
+
+
+.gallery-text{
+  @include displayFlex(column, flex-start , flex-start );
+  padding: 72px 154px;
+}
